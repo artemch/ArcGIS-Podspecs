@@ -11,12 +11,18 @@ For additional information on the CocoaPods project, please see [CocoaPods.org](
 ### How To Get This All Setup
 ______
 
-# 1. Create a directory at /Users/Shared/Library/ArcGIS
+1. Create a directory at /Users/Shared/Library/ArcGIS
 
-# 2. Download the master zip or clone this repo into that directory. 
+2. Download the master zip or clone this repo into that directory. 
 
 This will create a subdirectory for each version of the Esri iOS SDK. At current writing, these are 2.3.2, 10.1.1, and 10.1.1-u1. Each directory will contain an ArcGIS.podspec file that points to an (as of yet non-existent) zip file in the same directory.
 
-# 3. Download and install the latest version of the Esri iOS SDK.
+3. Download and install the latest version of the Esri iOS SDK.
+
+4. Find the ArcGIS.framework "file" that was installed and compress it to a zip file.
+
+This file will be located in the $(HOME)/Library/SDKs/ArcGIS/iOS/ directory.
+
+Note: The user's Library directory is hidden by default. You can issue the command _chflags nohidden ~/Library/_ in the Terminal application to unhide it. This will enable you to browse to it using the Finder.
 
 
