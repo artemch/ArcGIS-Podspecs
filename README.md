@@ -19,10 +19,20 @@ ______
 
 3. Download and install the latest version of the Esri iOS SDK.
 
-4. Find the ArcGIS.framework "file" that was installed and compress it to a zip file.
+4. Find the ArcGIS.framework "file" that was installed and compress it to a zip file. This file should be called ArcGIS.framework.zip
 
     This file will be located in the $(HOME)/Library/SDKs/ArcGIS/iOS/ directory.
 
     Note: The user's Library directory is hidden by default. You can issue the command _chflags nohidden ~/Library/_ in the Terminal application to unhide it. This will enable you to browse to it using the Finder.
+
+5. Move the ArcGIS.framework.zip file to the podspec folder for the latest version. 
+
+    As of this writing that would be /Users/Shared/Library/ArcGIS/10.1.1-u1. This folder should now contain the ArcGIS.podscpec fie from this repo, plus your zipped up framework file.
+    
+6. Repeat this process for any earlier versions of the SDK that you wish to use.
+
+7. Each time a new version of the SDK is released, update your copy of this repo and add the zip file to the new directory.
+
+### Add the Esri iOS SDK to an XCode Project using CocoaPods
 
 
