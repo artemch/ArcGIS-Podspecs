@@ -8,11 +8,15 @@ The current and previous versions of the Esri iOS SDK can be found [here](http:/
 
 For additional information on the CocoaPods project, please see [CocoaPods.org](http://cocoapods.org).
 
-How To
+### How To Get This All Setup
 ______
 
-### 1. Create a directory at /Users/Shared/Library/ArcGIS
+1. Create a directory at /Users/Shared/Library/ArcGIS
 
-### 2. Download the master zip or clone this repo into that directory. This will create a subdirectory for each version of the Esri iOS SDK. At current writing, these are 2.3.2, 10.1.1, and 10.1.1-u1. Each directory will contain an ArcGIS.podspec file that points to an (as of yet non-existent) zip file in the same directory.
+2. Download the master zip or clone this repo into that directory. 
 
-### 3. 
+This will create a subdirectory for each version of the Esri iOS SDK. At current writing, these are 2.3.2, 10.1.1, and 10.1.1-u1. Each directory will contain an ArcGIS.podspec file that points to an (as of yet non-existent) zip file in the same directory.
+
+3. Download and install the latest version of the Esri iOS SDK.
+
+
