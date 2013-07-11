@@ -37,11 +37,18 @@ ______
 
 1. Create a new project
 
-2. Add an empty Podfile
+2. Add a Podfile
 
     ```
     platform :ios, '6.0'
     pod 'ArcGIS', :podspec => '/Users/Shared/Library/ArcGIS/10.1.1-u1/ArcGIS.podspec'
     ```
 
-3. 
+3. Install into XCode project
+
+    ```
+    cd /path/to/your/project
+    pod install
+    ```
+
+4. Close project and open workspace
