@@ -35,4 +35,14 @@ ______
 
 ### Add the Esri iOS SDK to an XCode Project using CocoaPods
 
+1. Create a new project
 
+2. Add an empty Podfile
+
+```
+platform :ios, '6.0'
+pod 'ArcGIS', :podspec => '/Users/Shared/Library/ArcGIS/10.1.1-u1/ArcGIS.podspec'
+
+```
+
+3. 
