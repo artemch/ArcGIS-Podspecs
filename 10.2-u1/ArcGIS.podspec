@@ -20,4 +20,5 @@ Pod::Spec.new do |s|
   s.framework = 'CoreGraphics', 'CoreLocation',  'CoreText', 'Foundation', 'QuartzCore', 'MediaPlayer', 'MobileCoreServices', 'OpenGLES', 'Security', 'UIKit'
   s.xcconfig  =  { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/ArcGIS"',
                    'OTHER_LDFLAGS' => '-ObjC -all_load -framework ArcGIS' }
+  s.requires_arc = true
 end
