@@ -15,7 +15,7 @@ ______
 
 2. Download the master zip or clone this repo into that directory. 
 
-    This will create a subdirectory for each version of the Esri iOS SDK. At current writing, these are 2.3.2, 10.1.1, and 10.1.1-u1. Each directory will contain an ArcGIS.podspec file that points to an (as of yet non-existent) zip file in the same directory.
+    This will create a subdirectory for each version of the Esri iOS SDK. At current writing, these are 2.3.2, 10.1.1, 10.1.1-u1 and 10.2-u1. Each directory will contain an ArcGIS.podspec file that points to an (as of yet non-existent) zip file in the same directory.
 
 3. Download and install the latest version of the Esri iOS SDK.
 
@@ -27,7 +27,7 @@ ______
 
 5. Move the ArcGIS.framework.zip file to the podspec folder for the latest version. 
 
-    As of this writing that would be /Users/Shared/Library/ArcGIS/10.1.1-u1. This folder should now contain the ArcGIS.podscpec fie from this repo, plus your zipped up framework file.
+    As of this writing that would be /Users/Shared/Library/ArcGIS/10.2-u1. This folder should now contain the ArcGIS.podscpec fie from this repo, plus your zipped up framework file.
     
 6. Repeat this process for any earlier versions of the SDK that you wish to use.
 
@@ -41,7 +41,7 @@ ______
 
     ```
     platform :ios, '6.0'
-    pod 'ArcGIS', :podspec => '/Users/Shared/Library/ArcGIS/10.1.1-u1/ArcGIS.podspec'
+    pod 'ArcGIS', :podspec => '/Users/Shared/Library/ArcGIS/10.2-u1/ArcGIS.podspec'
     ```
 
 3. Install into XCode project
